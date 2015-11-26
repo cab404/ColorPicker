@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ColorPicker</string>
+    <string name="ccp_tap_to_select_color">Tap to select color</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+    <com.cab404.colorpicker.ColorCircleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/ccp_hue_circle"/>
+    <!--<com.cab404.colorpicker.ColorCircleView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:id="@+id/saturation_circle"/>-->
+    <com.cab404.colorpicker.CircleView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/ccp_color_circle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ccp_tap_to_select_color"
+        android:layout_below="@+id/ccp_color_circle"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
